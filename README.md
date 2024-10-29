@@ -1,75 +1,36 @@
-# Nuxt Minimal Starter
+# Проект сайта стоматологической клиники "Таис"
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Добро пожаловать в репозиторий проекта сайта стоматологической клиники "Таис". Этот проект разработан для того, чтобы предоставить пользователям удобный интерфейс для получения информации о клинике, записи на прием, а также для ознакомления с услугами и специалистами клиники.
 
-## Setup
+## Информация о разработчике
 
-Make sure to install dependencies:
+Имя разработчика: **Иван Орлов**
 
-```bash
-# npm
-npm install
+Иван стремится создать современный и интуитивно понятный сайт, который улучшит взаимодействие пациентов со стоматологической клиникой "Таис" и сделает процесс записи на прием проще и удобнее.
 
-# pnpm
-pnpm install
+## Технологии
 
-# yarn
-yarn install
+- **Vue 3**: используется для создания реактивного интерфейса.
+- **Nuxt**: для улучшения производительности с помощью SSR.
+- **SCSS**: для стилизации страниц с удобным и гибким управлением стилями.
 
-# bun
-bun install
-```
+## Описание функционала
 
-## Development Server
+- **Пагинация товаров и услуг**: удобное разделение услуг клиники на страницы для лучшего пользовательского опыта.
+- **Форма записи на прием**: возможность быстрой записи на прием прямо с сайта.
+- **Интерактивный интерфейс**: страницы загружаются динамично, без необходимости перезагрузки.
 
-Start the development server on `http://localhost:3000`:
+## Как запустить проект
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. Клонируйте репозиторий:
+   ```bash
+   git clone <URL вашего репозитория>
+2. Перейдите в директорию проекта:
+   ```bash
+   cd tais-dental-clinic
+3. Установите зависимости:
+   ```bash
+   npm install
+4. Запустите локальный сервер разработки:
+   ```bash
+   npm run dev
