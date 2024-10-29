@@ -50,7 +50,6 @@ body {
   font-family: Manrope, sans-serif;
 }
 
-
 input,
 button,
 textarea {
@@ -70,7 +69,7 @@ button::-moz-focus-inner {
 a,
 a:visited {
   text-decoration: none;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 a:hover {
   text-decoration: none;
@@ -92,11 +91,18 @@ h6 {
 }
 /* Обунлящий список */
 
-#app{
+#app {
   min-height: 200vh;
   display: flex;
   flex-direction: column;
   font-size: 16px;
 }
 
+.container {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 42px;
+  padding-left: 42px;
+}
 </style>
