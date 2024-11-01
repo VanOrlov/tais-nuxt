@@ -1,9 +1,11 @@
 <template>
+  <n-modal-provider>
   <div id="app">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
   </div>
+</n-modal-provider>
 </template>
 
 <style>
@@ -95,14 +97,15 @@ h6 {
   min-height: 200vh;
   display: flex;
   flex-direction: column;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 42px;
-  padding-left: 42px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 </style>

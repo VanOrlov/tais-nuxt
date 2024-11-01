@@ -1,5 +1,4 @@
 <template>
-    <!-- Подвал (footer) -->
     <footer>
         
     </footer>
